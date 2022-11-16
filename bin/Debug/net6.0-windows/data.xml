@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <fstart>False</fstart>
+  <state>True</state>
+  <lastday>0</lastday>
+  <age>18</age>
+  <height>174</height>
+  <weigth>74</weigth>
+  <physactivity>1,375</physactivity>
+  <timetosleep>08:00:00</timetosleep>
+  <timewakeup>22:00:00</timewakeup>
+</root>

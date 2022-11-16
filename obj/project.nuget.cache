@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "lckkqCY+DEQ42K7XHagdQMoE1axfwqHyRT3vVCtTs/qu4fR93cEb7dZUCtPh6B0nTIiVvMYYU8e2651IN+zh7g==",
+  "success": true,
+  "projectFilePath": "F:\\Code\\projectA\\FitWat\\FitWat.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Пользователь\\.nuget\\packages\\microsoft.toolkit.uwp.notifications\\7.1.2\\microsoft.toolkit.uwp.notifications.7.1.2.nupkg.sha512",
+    "C:\\Users\\Пользователь\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
