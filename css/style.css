@@ -5,9 +5,9 @@ html{
     font-family: Arial, Helvetica, sans-serif;
 }
 body{
-    background-image: url("bg_site.png");
+    background-image: url("bg.png");
     background-repeat: no-repeat;
-    background-size: 100% 512px;
+    background-size: 100% 400%;
 }
 .navigation{
     display: flex;
@@ -22,7 +22,6 @@ body{
     font-size: 1em;
     text-decoration: none;
     border: 0px;
-    
 }
 .nav-link:link{
     color: rgb(184, 181, 229);
@@ -44,7 +43,7 @@ body{
     display: flex;
     justify-content: flex-end;
 }
-#download-button{
+.download-button{
     width: 96px;
     height: 24px;
     border: 0px;
@@ -52,9 +51,8 @@ body{
     background-color: rgb(103, 39, 173);
     color: white;
     box-shadow: 0px 18px 20px rgba(0, 0, 0, 0.2);
-    
 }
-#download-button:active{
+.download-button:active{
     background-color: rgb(141, 54, 233);
 }
 .hero{
@@ -94,7 +92,8 @@ p{
 }
 .card-1,
 .card-2,
-.card-3{
+.card-3,
+.review-card-1{
     background-color: white;
     margin: 10px;
     padding: 24px;
@@ -106,6 +105,8 @@ p{
 .card-2{
     height: 156px;
     box-shadow: 0px 5px 100px rgba(140, 86, 184, 0.5);
+    position: relative;
+    z-index: 2;
 }
 .card-title,
 .card-title-top{
@@ -139,7 +140,110 @@ p{
 }
 .modern-image{
     position: relative;
-    background-size: 1px 115px;
     z-index: -1;
     left: 40px;
+}
+.image-phone-1{
+    position: relative;
+    bottom: 150px;
+}
+.reviews-intro{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    width: 100%;
+    height: 100px;
+}
+.review-title{
+    color: #7738b1;
+    line-height: 20px;
+    font-size: 16px
+}
+.review-arrows{
+    color: #7738b1;
+    flex-direction: row-reverse;
+    margin-right: 50px;
+    font-size: 24px;
+}
+.footer-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(#3d2e88,#832dd5);
+    border-radius: 15px;
+    width: 100%;
+    height: 150px;
+    padding: 20px;
+}
+.footer-label{
+    text-align: center;
+    font-size: 16px;
+    line-height: 20px;
+}
+.footer-desc{
+    text-align: center;
+    font-size: 14px;
+    opacity: 0.5;
+}
+.download-button-2{
+    width: 96px;
+    height: 24px;
+    border: 0px;
+    margin-top: 10px;
+    border-radius: 20px;
+    background-color: rgb(230, 221, 242);
+    color: #832dd5;
+    box-shadow: 0px 20px 10px rgba(0, 0, 0, 0.2);
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding: 50px;
+}
+.download-type{
+    display: flex;
+    flex-direction: column;
+}
+.download-buttons{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+.download-button-3{
+    width: 96px;
+    height: 24px;
+    border: 0px;
+    margin: 20px;
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.2);
+}
+.copyright-text{
+    color:#577493;
+}
+.links{
+    justify-content: flex-end;
+    font-size: 14px;
+}
+.links table{
+    border-spacing: 15px;
+    justify-content: center;
+}
+.links thead{
+    color: #832dd5;
+}
+.lang{
+    color: #832dd5;
+}
+.links tbody{
+    color: #577493;
+    
+}
+.links th, td{
+    text-align: left;
+    
 }
